@@ -1,0 +1,24 @@
+renstra_visi_misi:
+    data-controller: AppBundle\ApiRptRenstra\Controller\RptRenstraVisiMisiController
+renstra_strategi_arah_kbjkn:
+    data-controller: AppBundle\ApiRptRenstra\Controller\RptRenstraStrategiArahKbjknController
+renstra_kbjkn_program:
+    data-controller: AppBundle\ApiRptRenstra\Controller\RptRenstraKbjknProgramController
+renstra_kbjkn_program_sub1:
+    data-controller: AppBundle\ApiRptRenstra\Controller\RptRenstraKbjknProgramSub1Controller
+renstra_kbjkn_program_sub2:
+    data-controller: AppBundle\ApiRptRenstra\Controller\RptRenstraKbjknProgramSub2Controller
+renstra_kbjkn_program_sub3:
+    data-controller: AppBundle\ApiRptRenstra\Controller\RptRenstraKbjknProgramSub3Controller
+renstra_indikasi_program:
+    data-controller: AppBundle\ApiRptRenstra\Controller\RptRenstraIndikasiProgramController
+renstra_indikasi_program_sub:
+    data-controller: AppBundle\ApiRptRenstra\Controller\RptRenstraIndikasiProgramSubController
+renstra_prog_kgtn_prioritas:
+    data-controller: AppBundle\ApiRptRenstra\Controller\RptRenstraProgKgtnPrioritasController
+renstra_prog_kgtn_prioritas_sub1:
+  data-controller: AppBundle\ApiRptRenstra\Controller\RptRenstraProgKgtnPrioritasSub1Controller
+renstra_prog_kgtn_prioritas_sub2:
+  data-controller: AppBundle\ApiRptRenstra\Controller\RptRenstraProgKgtnPrioritasSub2Controller
+renstra_prog_kgtn_prioritas_sub3:
+  data-controller: AppBundle\ApiRptRenstra\Controller\RptRenstraProgKgtnPrioritasSub3Controller

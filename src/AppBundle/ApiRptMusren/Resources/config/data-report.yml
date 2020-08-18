@@ -1,0 +1,179 @@
+# DESA/KELURAHAN
+musren_desa_list_kgtn_swdy:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenDesaListKgtnSwdyController
+musren_desa_list_kgtn_swdy_sub:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenDesaListKgtnSwdySubController
+musren_desa_list_kgtn:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenDesaListKgtnController
+musren_desa_list_kgtn_sub:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenDesaListKgtnSubController
+musren_desa_rekap_kgtn:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenDesaRekapKgtnController
+musren_desa_rekap_kgtn_mus:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenDesaRekapKgtnMusController
+musren_desa_list_flow_usulan:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenDesaListFlowUsulanController
+musren_desa_list_flow_usulan_sub:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenDesaListFlowUsulanSubController
+musren_desa_list_kgtn_kec_stj:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenDesaListKgtnKecStjController
+musren_desa_list_kgtn_kec_stj_sub:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenDesaListKgtnKecStjSubController
+musren_desa_list_kgtn_skpd_stj:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenDesaListKgtnSkpdStjController
+musren_desa_list_kgtn_skpd_stj_sub:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenDesaListKgtnSkpdStjSubController
+musren_desa_list_kgtn_kota_stj:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenDesaListKgtnKotaStjController
+musren_desa_list_kgtn_kota_stj_sub:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenDesaListKgtnKotaStjSubController
+musren_desa_delegasi:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenDesaDelegasiController
+musren_desa_list_prioritas_usulan:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenDesaListPrioritasUsulanController
+musren_desa_list_usulan_desa:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenDesaListUsulanDesaController
+musren_desa_list_kgtn_blm_verf:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenDesaListKgtnBlmVerfController
+musren_desa_list_kgtn_kec_tdk_stj:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenDesaListKgtnKecTdkStjController
+
+# KECAMATAN
+musren_kec_list_usulan_desa:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKecListUsulanDesaController
+musren_kec_list_usulan_desa_sub:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKecListUsulanDesaSubController
+musren_kec_list_usulan_desa_sub1:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKecListUsulanDesaSub1Controller
+musren_kec_list_kgtn:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKecListKgtnController
+musren_kec_list_kgtn_sub:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKecListKgtnSubController
+musren_kec_rekap_lokasi:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKecRekapLokasiController
+musren_kec_rekap_bidang:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKecRekapBidangController
+musren_kec_list_flow_usulan:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKecListFlowUsulanController
+musren_kec_list_flow_usulan_sub:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKecListFlowUsulanSubController
+musren_kec_delegasi:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKecDelegasiController
+musren_kec_rekap_usulan_desa:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKecRekapUsulanDesaController
+musren_kec_list_kgtn_skpd_stj:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKecListKgtnSkpdStjController
+musren_kec_list_kgtn_skpd_stj_sub:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKecListKgtnSkpdStjSubController
+musren_kec_list_kgtn_kota_stj:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKecListKgtnKotaStjController
+musren_kec_list_kgtn_kota_stj_sub:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKecListKgtnKotaStjSubController
+
+# RESES DEWAN
+musren_reses_list_kgtn:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenResesListKgtnController
+musren_reses_rekap_lokasi:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenResesRekapLokasiController
+musren_reses_list_flow_usulan:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenResesListFlowUsulanController
+musren_reses_list_flow_usulan_sub:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenResesListFlowUsulanSubController
+
+#FORUM SKPD
+musren_skpd_list_usulan_res:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdListUsulanResController
+musren_skpd_list_usulan_kec:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdListUsulanKecController
+musren_skpd_list_usulan_kec_sub:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdListUsulanKecSubController
+musren_skpd_list_usulan_kec_sub1:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdListUsulanKecSub1Controller
+musren_skpd_list_kgtn:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdListKgtnController
+musren_skpd_list_kgtn_sub:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdListKgtnSubController
+musren_skpd_list_kgtn_ringkas:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdListKgtnRingkasController
+musren_skpd_list_flow_usulan:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdListFlowUsulanController
+musren_skpd_rekap_usulan_kec:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdRekapUsulanKecController
+musren_skpd_rekap_usulan_res:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdRekapUsulanResController
+musren_skpd_list_kgtn_kota_stj_rekap:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdListKgtnKotaStjRekapController
+musren_skpd_list_kgtn_kota_stj:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdListKgtnKotaStjController
+musren_skpd_list_kgtn_kota_stj_sub:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdListKgtnKotaStjSubController
+musren_skpd_hibah_bansos:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdHibahBansosController
+musren_skpd_rekap_anggaran:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdRekapAnggaranController
+anomali_smbr_anggaran:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptAnomaliSmbrAnggaranController
+
+# KABUPATEN/KOTA
+musren_kab_list_flow_usulan_desa:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKabListFlowUsulanDesaController
+musren_kab_list_flow_usulan_desa_w:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKabListFlowUsulanDesaWController
+musren_kab_list_flow_usulan_desa_f:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKabListFlowUsulanDesaFController
+musren_kab_list_flow_usulan_kec:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKabListFlowUsulanKecController
+musren_kab_list_flow_usulan_kec_w:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKabListFlowUsulanKecWController
+musren_kab_list_flow_usulan_kec_f:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKabListFlowUsulanKecFController
+musren_kab_rekap_usulan_per_satker:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKabRekapUsulanPerSatkerController
+musren_kab_rekap_usulan_per_bidang:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKabRekapUsulanPerBidangController
+musren_kab_rekap_usulan_per_fungsi:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKabRekapUsulanPerFungsiController
+musren_kab_rekap_usulan_per_wilayah:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKabRekapUsulanPerWilayahController
+musren_kab_rekap_usulan_per_musren:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKabRekapUsulanPerMusrenController
+musren_skpd_rekap_kgtn_skpd:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdRekapKgtnSkpdController
+musren_skpd_rekap_kgtn_skpd_2:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdRekapKgtnSkpd2Controller
+musren_skpd_list_kgtn:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdListKgtnController
+musren_skpd_list_kgtn_ringkas:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdListKgtnRingkasController
+musren_skpd_rekap_bid_prog:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdRekapBidProgController
+musren_kab_rekap_kgtn_skpd:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKabRekapKgtnSkpdController
+musren_kab_rekap_kgtn_skpd_2:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKabRekapKgtnSkpd2Controller
+musren_skpd_list_flow_usulan:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdListFlowUsulanController
+musren_kab_list_kgtn:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKabListKgtnController
+musren_kab_list_kgtn_sub:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKabListKgtnSubController
+musren_kab_list_kgtn_ringkas:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKabListKgtnRingkasController
+musren_kab_rekap_bid_prog:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKabRekapBidProgController
+musren_kab_list_flow_usulan:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKabListFlowUsulanController
+
+# PENGAWASAN
+musren_desa_blm_kgtn:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenDesaBlmKgtnController
+musren_kec_blm_kgtn:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKecBlmKgtnController
+musren_skpd_blm_kgtn:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdBlmKgtnController
+musren_kec_list_usulan_desa_blm_proses:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKecListUsulanDesaBlmProsesController
+musren_skpd_list_usulan_kec_blm_proses:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenSkpdListUsulanKecBlmProsesController
+musren_kab_list_usulan_skpd_blm_proses:
+    data-controller: AppBundle\ApiRptMusren\Controller\RptMusrenKabListUsulanSkpdBlmProsesController

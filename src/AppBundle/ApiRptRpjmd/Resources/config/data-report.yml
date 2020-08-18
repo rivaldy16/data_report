@@ -1,0 +1,24 @@
+visi_misi:
+    data-controller: AppBundle\ApiRptRpjmd\Controller\RptRpjmdVisiMisiController
+strategi_arah_kbjkn:
+    data-controller: AppBundle\ApiRptRpjmd\Controller\RptRpjmdStrategiArahKbjknController
+kbjkn_program:
+    data-controller: AppBundle\ApiRptRpjmd\Controller\RptRpjmdKbjknProgramController
+kbjkn_program_sub1:
+    data-controller: AppBundle\ApiRptRpjmd\Controller\RptRpjmdKbjknProgramSub1Controller
+kbjkn_program_sub2:
+    data-controller: AppBundle\ApiRptRpjmd\Controller\RptRpjmdKbjknProgramSub2Controller
+kbjkn_program_sub3:
+    data-controller: AppBundle\ApiRptRpjmd\Controller\RptRpjmdKbjknProgramSub3Controller
+kbjkn_program_sub4:
+    data-controller: AppBundle\ApiRptRpjmd\Controller\RptRpjmdKbjknProgramSub4Controller
+indikasi_program:
+    data-controller: AppBundle\ApiRptRpjmd\Controller\RptRpjmdIndikasiProgramController
+indikasi_program_sub:
+    data-controller: AppBundle\ApiRptRpjmd\Controller\RptRpjmdIndikasiProgramSubController
+indikator_kinerja:
+    data-controller: AppBundle\ApiRptRpjmd\Controller\RptRpjmdIndikatorKinerjaController
+kemampuan_keuangan:
+    data-controller: AppBundle\ApiRptRpjmd\Controller\RptRpjmdKemampuanKeuanganController
+proyeksi_anggaran:
+    data-controller: AppBundle\ApiRptRpjmd\Controller\RptRpjmdProyeksiAnggaranController

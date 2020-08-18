@@ -1,0 +1,68 @@
+ppas_rekap_program_rkpd:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasRekapProgramRkpdController
+ppas_rekap_program_skpd:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasRekapProgramSkpdController
+ppas_rekap_program_ppas_non_rkpd:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasRekapProgramPpasNonRkpdController
+ppas_rekap_program_rkpd_non_ppas:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasRekapProgramRkpdNonPpasController
+ppas_trx_non_mak:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasTrxNonMakController
+ppas_kgtn_tanpa_ssrn:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasKgtnTanpaSsrnController
+ppas_rekap_satker:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasRekapSatkerController
+ppas_rekap_satker_sub:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasRekapSatkerSubController
+ppas_header_landscape:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasHeaderLandscapeController
+ppas_rekap_satker_rinc:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasRekapSatkerRincController
+ppas_header_p:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasHeaderPController
+ppas_rekap_satker_rinc_ket:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasRekapSatkerRincKetController
+ppas_rekap_pdpt:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasRekapPdptController
+ppas_rekap_btl:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasRekapBtlController
+ppas_rekap_bl:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasRekapBlController
+ppas_rekap_pbyn:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasRekapPbynController
+ppas_rekap_tab1:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasLamp1Controller
+ppas_rekap_tab2_1:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasLamp2_1Controller
+ppas_rekap_tab2_1_rinci:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasLamp2_1RinciController
+ppas_lamp_3_1:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasLamp3_1Controller
+ppas_lamp_3_1_sub2:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasLamp3_1_sub2Controller
+ppas_lamp_3_1_sub1:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasLamp3_1_sub1Controller
+ppas_rekap_tab4_1a:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasLamp4_1AController
+ppas_rekap_tab4_1b:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasLamp4_1BController
+ppas_rekap_tab4_2:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasLamp4_2Controller
+ppas_rekap_tab4_3:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasLamp4_3Controller
+ppas_rekap_tab5:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasLamp5Controller
+ppas_rekap_tab6:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasLamp6Controller
+ppas_rekap_program_rka_pdpt:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasProgRkaPdpdController
+ppas_rekap_program_rka_btl:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasRekapProgramRkaBtlController
+ppas_rekap_program_rka_bl:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasRekapProgramRkaBlController
+ppas_rekap_program_rka_pbyn:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasRekapProgramRkaPbynController
+ppas_rekap_program_rka_non_ppas:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasRekapProgramRkaNonPpasController
+ppas_rekap_program_ppas_non_rka:
+    data-controller: AppBundle\ApiRptPpas\Controller\RptPpasRekapProgramPpasNonRkaController

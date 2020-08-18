@@ -1,0 +1,44 @@
+rekap_proyeksi:
+    data-controller: AppBundle\ApiRptRenja\Controller\RptRenjaRekapProyeksiController
+
+rekap_prog:
+    data-controller: AppBundle\ApiRptRenja\Controller\RptRenjaRekapProgramController
+    
+rekap_prog_kgtn:
+    data-controller: AppBundle\ApiRptRenja\Controller\RptRenjaRekapProgramKgtnController
+    
+rekap_urusan_satker:
+    data-controller: AppBundle\ApiRptRenja\Controller\RptRenjaRekapUrusanSatkerController
+    
+rekap_prog_rkpd:
+    data-controller: AppBundle\ApiRptRenja\Controller\RptRenjaRekapProgramRkpdController
+    
+renja_bl_kgtn:
+    data-controller: AppBundle\ApiRptRenja\Controller\RptRenjaBelanjaLangsungController
+    
+renja_non_bl:
+    data-controller: AppBundle\ApiRptRenja\Controller\RptRenjaBelanjaTakLangsungController
+renja_anggaran_sub:
+    data-controller: AppBundle\ApiRptRenja\Controller\RptRenjaAnggaranSubController
+    
+renja_bl_idktr:
+    data-controller: AppBundle\ApiRptRenja\Controller\RptRenjaSubReportIndikatorController
+    
+renja_sub_rpt:
+    data-controller: AppBundle\ApiRptRenja\Controller\RptRenjaSubReportController
+
+renja_lamp_permen54_6c0:
+    data-controller: AppBundle\ApiRptRenja\Controller\RptRenjaLampPermen546c0Controller
+
+renja_lamp_permen54_6c6:
+    data-controller: AppBundle\ApiRptRenja\Controller\RptRenjaPermen546c6Controller
+
+renja_lamp_permen54_7h4:
+    data-controller: AppBundle\ApiRptRenja\Controller\RptRenjaLampPermen547h4Controller
+
+renja_lamp_permen54_7i5:
+    data-controller: AppBundle\ApiRptRenja\Controller\RptRenjaLampPermen547i5Controller
+renja_lamp_permen54_6c0_sub2:
+    data-controller: AppBundle\ApiRptRenja\Controller\RptRenjaLampPermen546c0Sub2Controller
+renja_lamp_permen54_6c0_sub1:
+    data-controller: AppBundle\ApiRptRenja\Controller\RptRenjaLampPermen546c0Sub1Controller

@@ -1,0 +1,22 @@
+rptRpjmd:
+    resource: '@AppBundle/ApiRptRpjmd/Controller'
+    type: annotation
+rptRenja:
+    resource: '@AppBundle/ApiRptRenja/Controller'
+    type: annotation
+rptRenstra:
+    resource: '@AppBundle/ApiRptRenstra/Controller'
+    type: annotation
+rptRkpd:
+    resource: '@AppBundle/ApiRptRkpd/Controller'
+    type: annotation
+rptPpas:
+    resource: '@AppBundle/ApiRptPpas/Controller'
+    type: annotation
+rptMusren:
+    resource: '@AppBundle/ApiRptMusren/Controller'
+    type: annotation
+rptRka:
+    resource: '@AppBundle/ApiRptRka/Controller'
+    type: annotation
+    

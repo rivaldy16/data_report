@@ -1,0 +1,82 @@
+# SINKRONISASI
+rkpd_sinkronisasi_01:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdSinkronisasi01Controller
+rkpd_sinkronisasi_02:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdSinkronisasi02Controller
+rkpd_sinkronisasi_03:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdSinkronisasi03Controller
+rkpd_sinkronisasi_04:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdSinkronisasi04Controller
+rkpd_sinkronisasi_05:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdSinkronisasi05Controller
+rkpd_sinkronisasi_05_0:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdSinkronisasi050Controller
+rkpd_sinkronisasi_05_1:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdSinkronisasi051Controller
+rkpd_sinkronisasi_05_2:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdSinkronisasi052Controller
+rkpd_sinkronisasi_05_3:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdSinkronisasi053Controller
+
+# REKAPITULASI
+rkpd_rekap_proyeksi:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdRekapProyeksiController
+rkpd_rekap_bidang_prog:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdRekapBidangProgramController
+rkpd_rekap_prog_kgtn:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdRekapBidangProgramKgtnController
+rkpd_rekap_satker:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdRekapSatkerController
+rkpd_rekap_urusan_satker:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdRekapUrusanSatkerController
+rkpd_rekap_satker_prog_kgtn_1:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdRekapSatkerProgKgtn1Controller
+rkpd_rekap_satker_prog_kgtn_2:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdRekapSatkerProgKgtn2Controller
+rkpd_list_kgtn_skpd:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdRekapListKgtnController
+rkpd_rekap_satker_1:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdRekapSatker1Controller
+rkpd_rekap_satker_2:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdRekapSatker2Controller
+
+# PERMENDAGRI
+rkpd_lamp_permen23_1b:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdLampPermen231bController
+rkpd_lamp_permen23_1c:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdLampPermen231cController
+rkpd_lamp_permen23_1c_sub1:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdLampPermen231cSub1Controller
+rkpd_lamp_permen23_1d:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdLampPermen231dController
+rkpd_lamp_permen23_1d_sub1:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdLampPermen231dSub1Controller
+rkpd_lamp_permen23_1d_sub2:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdLampPermen231dSub2Controller
+rkpd_lamp_permen23_1d_mod:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdLampPermen231dModController
+rkpd_lamp_permen23_1d_mod_sub1:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdLampPermen231dModSub1Controller
+rkpd_lamp_permen23_1d_mod_sub2:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdLampPermen231dModSub2Controller
+rkpd_lamp_permen23_1d_mod2:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdLampPermen231dMod2Controller
+rkpd_lamp_permen23_1d_mod2_sub1:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdLampPermen231dMod2Sub1Controller
+rkpd_lamp_permen23_1d_mod2_sub2:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdLampPermen231dMod2Sub2Controller
+rkpd_lamp_permen23_1e:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdLampPermen231eController
+rkpd_lamp_permen23_1e_sub1:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdLampPermen231eSub1Controller
+rkpd_lamp_permen23_1e_sub2:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdLampPermen231eSub2Controller
+rkpd_lamp_permen23_2b:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdLampPermen232bController
+rkpd_lamp_permen23_2b_sub1:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdLampPermen232bSub1Controller
+rkpd_lamp_permen23_2b_sub2:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRkpdLampPermen232bSub2Controller
+
+renja_kgtn_skpd:
+    data-controller: AppBundle\ApiRptRkpd\Controller\RptRenjaKgtnSkpdController

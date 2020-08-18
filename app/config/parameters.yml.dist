@@ -1,0 +1,46 @@
+# This file is a "template" of what your parameters.yml file should look like
+# Set parameters here that may be different on each deployment target of the app, e.g. development, staging, production.
+# https://symfony.com/doc/current/best_practices/configuration.html#infrastructure-related-configuration
+parameters:
+    database_host: 127.0.0.1
+    database_port: ~
+    database_name: symfony
+    database_user: root
+    database_password: ~
+    # You should uncomment this if you want to use pdo_sqlite
+    #database_path: '%kernel.project_dir%/var/data/data.sqlite'
+
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: ~
+    mailer_password: ~
+
+    # A secret key that's used to generate certain security-related tokens
+    secret: ThisTokenIsNotSoSecretChangeIt
+    
+    uri_rest_tenant: '%env(SIMRAL_ENV_URI_TENANT)%'
+    uri_rest_setup: '%env(SIMRAL_ENV_URI_SETUP)%'
+    uri_rest_rpjmd: '%env(SIMRAL_ENV_URI_RPJMD)%'
+    uri_rest_musren: '%env(SIMRAL_ENV_URI_MUSREN)%'
+    uri_rest_rkpd: '%env(SIMRAL_ENV_URI_RKPD)%'
+    uri_rest_renja: '%env(SIMRAL_ENV_URI_RENJA)%'
+    uri_rest_ppas: '%env(SIMRAL_ENV_URI_PPAS)%'
+    uri_rest_renstra: '%env(SIMRAL_ENV_URI_RENSTRA)%'
+    uri_rest_rka: '%env(SIMRAL_ENV_URI_RKA)%'
+    uri_rest_sakip: '%env(SIMRAL_ENV_URI_SAKIP)%'
+    
+    env(SIMRAL_ENV_URI_TENANT): 'http://localhost/cloud/simral31_api_adm/public/index.php/api/tenant/'
+    env(SIMRAL_ENV_URI_SETUP): 'http://localhost/cloud/simral31_api_sikd/public/index.php/api/setup/'
+    env(SIMRAL_ENV_URI_RPJMD): 'http://localhost/cloud/simral31_api_rpjmd/public/index.php/api/rpjmd/'
+    env(SIMRAL_ENV_URI_MUSREN): 'http://localhost/cloud/simral31_api_musren/public/index.php/api/musren/'
+    env(SIMRAL_ENV_URI_RKPD): 'http://localhost/cloud/simral31_api_rkpd/public/index.php/api/rkpd/'
+    env(SIMRAL_ENV_URI_RENJA): 'http://localhost/cloud/simral31_api_renja/public/index.php/api/renja/'
+    env(SIMRAL_ENV_URI_PPAS): 'http://localhost/cloud/simral31_api_ppas/public/index.php/api/ppas/'
+    env(SIMRAL_ENV_URI_RENSTRA): 'http://localhost/cloud/simral31_api_renstra/public/index.php/api/renstra/'
+    env(SIMRAL_ENV_URI_RKA): 'http://localhost/cloud/simral3_api_eplanning/web/app_dev.php/api/rka/'
+    env(SIMRAL_ENV_URI_SAKIP): 'http://localhost/cloud/simral3_api_eplanning/web/app_dev.php/api/sakip/'
+    
+    env(AMQP_BROKER_ADDRESS): 'localhost'
+    env(AMQP_BROKER_PORT): '5672'
+    env(AMQP_BROKER_USERNAME): 'guest'
+    env(AMQP_BROKER_PASSWORD): 'guest'

@@ -1,0 +1,33 @@
+imports:
+    - { resource: config.yml }
+
+#doctrine:
+#    orm:
+#        metadata_cache_driver: apc
+#        result_cache_driver: apc
+#        query_cache_driver: apc
+
+monolog:
+    handlers:
+        main:
+            type: fingers_crossed
+            action_level: error
+            handler: nested
+        nested:
+            type:           group
+            members:        [file, amqp]
+        file:
+            type:  stream
+            path:  "%kernel.logs_dir%/%kernel.environment%.log"
+            level: debug
+        amqp: 
+            type: amqp
+            exchange: 'PhpAmqpLib\Channel\AMQPChannel'
+            exchange_name: 'simral3-logs'
+            formatter: 'Monolog\Formatter\LogstashFormatter'
+            level: debug
+            app_name: simral-report
+            channels: ["!event"]
+        console:
+            type: console
+            process_psr_3_messages: false

@@ -1,0 +1,40 @@
+rka_skpd_pendapatan:
+    data-controller: AppBundle\ApiRptRka\Controller\RptRkaSkpdPendapatanController
+rka_hasil_pembahasan:
+    data-controller: AppBundle\ApiRptRka\Controller\RptRkaHasilPembahasanController
+rka_tim_anggaran:
+    data-controller: AppBundle\ApiRptRka\Controller\RptRkaTimAnggaranController
+rka_rinc_mataanggaran:
+    data-controller: AppBundle\ApiRptRka\Controller\RptRkaRincMataAnggaranController
+rka_skpd_blnj_tdk_langsung:
+    data-controller: AppBundle\ApiRptRka\Controller\RptRkaSkpdBlnjTdkLangsungController
+rka_skpd_blnj_langsung:
+    data-controller: AppBundle\ApiRptRka\Controller\RptRkaSkpdBlnjLangsungController
+rka_skpd_blnj_langsung_detail:
+    data-controller: AppBundle\ApiRptRka\Controller\RptRkaSkpdBlnjLangsungDetailController
+rka_skpd_indktr_knrj:
+    data-controller: AppBundle\ApiRptRka\Controller\RptRkaSkpdIndktrKnrjController
+rka_skpkd_pendapatan:
+    data-controller: AppBundle\ApiRptRka\Controller\RptRkaSkpkdPendapatanController
+rka_skpkd_blnj_tdk_langsung:
+  data-controller: AppBundle\ApiRptRka\Controller\RptRkaSkpkdBlnjTdkLangsungController
+rka_skpkd_penerimaan:
+  data-controller: AppBundle\ApiRptRka\Controller\RptRkaSkpkdPenerimaanController
+rka_skpkd_rincian_mata_anggaran_pembiayaan:
+  data-controller: AppBundle\ApiRptRka\Controller\RptRkaSkpkdRincMataAnggaranPembiayaanController
+rka_skpkd_pengeluaran:
+  data-controller: AppBundle\ApiRptRka\Controller\RptRkaSkpkdPengeluaranController
+rka_rekap_skpd:
+  data-controller: AppBundle\ApiRptRka\Controller\RptRkaRekapSkpdController
+rka_rekap_skpd_sub:
+  data-controller: AppBundle\ApiRptRka\Controller\RptRkaRekapSkpdSubController
+rka_rekap_skpd_blnj_langsung:
+  data-controller: AppBundle\ApiRptRka\Controller\RptRkaRekapSkpdBlnjLangsungController
+rka_rekap_skpkd:
+  data-controller: AppBundle\ApiRptRka\Controller\RptRkaRekapSkpkdController
+rka_rekap_skpkd_sub:
+  data-controller: AppBundle\ApiRptRka\Controller\RptRkaRekapSkpkdSubController
+rka_anomali_rinc_anggaran:
+  data-controller: AppBundle\ApiRptRka\Controller\RptRkaAnomaliRincAnggaran
+rka_anomali_rinc_no_item:
+  data-controller: AppBundle\ApiRptRka\Controller\RptRkaAnomaliRincNoItem

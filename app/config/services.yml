@@ -1,0 +1,127 @@
+# Learn more about services, parameters and containers at
+# https://symfony.com/doc/current/service_container.html
+parameters:
+    #parameter_name: value
+
+services:
+    # default configuration for services in *this* file
+    _defaults:
+        # automatically injects dependencies in your services
+        autowire: true
+        # automatically registers your services as commands, event subscribers, etc.
+        autoconfigure: true
+        # this means you cannot fetch services directly from the container via $container->get()
+        # if you need to do this, you can override this setting on individual services
+        public: false
+
+    # makes classes in src/AppBundle available to be used as services
+    # this creates a service per class whose id is the fully-qualified class name
+    AppBundle\:
+        resource: '../../src/AppBundle/*'
+        # you can exclude directories or files
+        # but if a service is unused, it's removed anyway
+        exclude: '../../src/AppBundle/{Entity,Repository,Tests}'
+
+    # controllers are imported separately to make sure they're public
+    # and have a tag that allows actions to type-hint services
+    AppBundle\ApiRptRpjmd\:
+        resource: '../../src/AppBundle/ApiRptRpjmd'
+        public: true
+        tags: ['controller.service_arguments']
+        arguments: 
+            - "@request_stack"
+            - "@lived.rest_client"
+            - "%uri_rest_rpjmd%"
+            - "%uri_rest_setup%"
+
+    AppBundle\ApiRptRenja\:
+        resource: '../../src/AppBundle/ApiRptRenja'
+        public: true
+        tags: ['controller.service_arguments']
+        arguments: 
+            - "@request_stack"
+            - "@lived.rest_client"
+            - "%uri_rest_renja%"
+            - "%uri_rest_setup%"
+            
+    AppBundle\ApiRptRenstra\:
+        resource: '../../src/AppBundle/ApiRptRenstra'
+        public: true
+        tags: ['controller.service_arguments']
+        arguments: 
+            - "@request_stack"
+            - "@lived.rest_client"
+            - "%uri_rest_renstra%"
+            - "%uri_rest_setup%"
+            - "%uri_rest_rpjmd%"
+            
+    AppBundle\ApiRptRkpd\:
+        resource: '../../src/AppBundle/ApiRptRkpd'
+        public: true
+        tags: ['controller.service_arguments']
+        arguments: 
+            - "@request_stack"
+            - "@lived.rest_client"
+            - "%uri_rest_rkpd%"
+            - "%uri_rest_renja%"
+            - "%uri_rest_ppas%"
+            - "%uri_rest_setup%"
+
+    AppBundle\ApiRptPpas\:
+        resource: '../../src/AppBundle/ApiRptPpas'
+        public: true
+        tags: ['controller.service_arguments']
+        arguments: 
+            - "@request_stack"
+            - "@lived.rest_client"
+            - "%uri_rest_rkpd%"
+            - "%uri_rest_renja%"
+            - "%uri_rest_ppas%"
+            - "%uri_rest_setup%"
+
+    AppBundle\ApiRptRka\:   
+        resource: '../../src/AppBundle/ApiRptRka'
+        public: true
+        tags: ['controller.service_arguments']
+        arguments: 
+            - "@request_stack"
+            - "@lived.rest_client"
+            - "%uri_rest_renja%"
+            - "%uri_rest_setup%"
+            - "%uri_rest_rka%"
+
+    AppBundle\ApiRptMusren\:
+        resource: '../../src/AppBundle/ApiRptMusren'
+        public: true
+        tags: ['controller.service_arguments']
+        arguments: 
+            - "@request_stack"
+            - "@lived.rest_client"
+            - "%uri_rest_rkpd%"
+            - "%uri_rest_renja%"
+            - "%uri_rest_musren%"
+            - "%uri_rest_setup%"
+
+    
+    lived.rest_client:
+         class: AppBundle\Lib\LivedRestClient
+         public: true
+         autowire: true
+         tags: ['controller.service_arguments']
+         arguments: 
+            - "@request_stack"
+            
+    # PhpAmqpLib\Channel\AMQPChannel:
+    #     arguments:
+    #         $connection: '@PhpAmqpLib\Connection\AMQPSocketConnection'
+    
+    # PhpAmqpLib\Connection\AMQPSocketConnection:
+    #     arguments:
+    #         $host: "%env(AMQP_BROKER_ADDRESS)%"
+    #         $port: "%env(AMQP_BROKER_PORT)%"
+    #         $user: "%env(AMQP_BROKER_USERNAME)%"
+    #         $password: "%env(AMQP_BROKER_PASSWORD)%"
+    
+    # Monolog\Formatter\LogstashFormatter:
+    #     arguments:
+    #         $applicationName: simral3-report
